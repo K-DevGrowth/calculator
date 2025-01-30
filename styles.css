@@ -1,0 +1,38 @@
+#container {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#container input {
+    max-width: 235px;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    font-size: 24px;
+    text-align: end;
+}
+
+#container button {
+    padding: 5px;
+}
+
+#container #grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.active {
+    background-color: aqua;
+}
+
+#screen-last {
+    border: 1px solid black;
+    height: 15px;
+    padding: 5px;
+    width: 100px;
+    float: inline-end;
+}
